@@ -1,0 +1,37 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "NodeJS Framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarpanCybercom/NewFramework.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "Framework"
+  ],
+  "author": "Darpan Vadher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarpanCybercom/NewFramework/issues"
+  },
+  "homepage": "https://github.com/DarpanCybercom/NewFramework#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
